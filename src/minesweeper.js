@@ -79,7 +79,7 @@ const flipTile = (playerBoard, bombBoard, rowIndex, columnIndex) => {
     }
 };
 
-
+/* This function prints the board by taking in a 2 dimensional array and logging its contents to the console */
 const printBoard = (board) =>
 {
     console.log((board.map(row => row.join(' | ')).join('\n')));
